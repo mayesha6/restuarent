@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    var mixer = mixitup('.item');
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:30,
+        dots:true,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:5000,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            992:{
+                items:2
+            },
+            1200:{
+                items:3
+            }
+        }
+  });
+})

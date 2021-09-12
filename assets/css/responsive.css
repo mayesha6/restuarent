@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1199px) {
+    .common-button {
+        display: none;
+    }
+    .footerSection .footerIcon ul li a {
+        width: 34px;
+        height: 34px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+    .common-button {
+        display: block;
+    }
+    .banner{
+        text-align: center;;
+    }
+    .aboutOrder{
+        order:2;
+    }
+    .aboutOrder2{
+        order:1;
+        margin-bottom:15px;
+    }
+    .specialOrder{
+        order:1;
+    }
+    .specialOrder2{
+        order:2;
+    }
+}
+
